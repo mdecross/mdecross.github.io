@@ -72,7 +72,7 @@ header {
 .header_name h1 {
   font-size: 400%;
   background-color: #252c34;
-  padding-left: 80px;
+  padding-left: 10%;
   padding-top: 12px;
 }
 .header_options h2 {
@@ -93,9 +93,8 @@ header {
 }
 .header_name h1 a {
   text-decoration: none;
-  color:black;
   background-color: #252c34;
-  color: #7f73b5;
+  color: #655ccc;
 }
 .header_options h2 a {
   display: inline;
@@ -120,7 +119,7 @@ header {
   margin-right:10%;
   margin-bottom:30px;
   padding: 40px 50px 30px 40px;
-  opacity:0.8;
+  opacity:0.85;
 }
 
 .midbar h1 {
