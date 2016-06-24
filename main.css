@@ -94,7 +94,7 @@ header {
   text-decoration: none;
   color:black;
   background-color: #252c34;
-  color: #d2432e;
+  color: #7f73b5;
 }
 .header_options h2 a {
   display: inline;
@@ -116,7 +116,19 @@ header {
   margin-left:10%;
   margin-right:10%;
   margin-bottom:30px;
-  padding: 20px 20px 20px 30px;
+  padding: 40px 50px 30px 40px;
+  opacity:.6;
+}
+
+.midbar:hover {
+  background-color: white;
+  text-align: left;
+  margin-top:120px;
+  margin-left:10%;
+  margin-right:10%;
+  margin-bottom:30px;
+  padding: 40px 50px 30px 40px;
+  opacity:.9;
 }
 
 .backstretch {
