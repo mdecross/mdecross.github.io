@@ -120,8 +120,8 @@ header {
   font-size: 90%;
 }
 
-.midbar {
-  background-color: white;
+.container {
+  background-color: transparent;
   overflow:hidden;
   text-align: left;
   min-height:80vh;
@@ -129,6 +129,44 @@ header {
   margin-left:10%;
   margin-right:10%;
   margin-bottom:30px;
+}
+
+.top_box {
+  margin-top: 40px;
+  float:left;
+  background-color:transparent;
+  color:white;
+  text-shadow: 2px 2px 1px #282444;
+  font-family: 'Merriweather', serif;
+  line-height:1.5;
+  font-size:90%;
+}
+
+.photo_box {
+  float:left;
+  background-color:white;
+  opacity:.85
+  overflow:hidden;
+  margin-bottom: 80px;
+  margin-left: 60px;
+  margin-right:25px;
+  width:308px;
+  height:308px;
+}
+
+.photo_box .coverphoto {
+  opacity:1;
+  position:relative;
+  width:288px;
+  height:288px;
+  margin:10px 10px 10px 10px;
+}
+
+.midbar {
+  background-color: white;
+  overflow:hidden;
+  text-align: left;
+  min-height:60vh;
   padding: 40px 50px 30px 40px;
   opacity:0.85;
 }
