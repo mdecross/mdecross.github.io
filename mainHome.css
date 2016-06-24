@@ -169,11 +169,9 @@ header {
   min-height:60vh;
   padding: 40px 50px 30px 40px;
   opacity:0.85;
-}
-
-.midbar h1 {
-  font-size: 24px;
-  padding-bottom:10px;
+  font-family: 'Merriweather', serif;
+  line-height:1.5;
+  font-size:80%;
 }
 
 .backstretch {
