@@ -219,6 +219,7 @@ left: 0px;
   display:inline;
   color: #ffffff;
   font-size:12px;
+  font-family: 'Simonetta', cursive;
 }
 
 .page_footer h1 a {
@@ -226,5 +227,6 @@ left: 0px;
   background-color: #252c34;
   color: #ffffff;
   font-size:12px;
+  font-family: 'Simonetta', cursive;
 }
 
