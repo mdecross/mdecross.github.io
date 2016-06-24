@@ -15,7 +15,6 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-  background-color: white;
   margin: 0;
   padding: 0;
   border: 0;
@@ -50,19 +49,20 @@ header {
   position: fixed;
   width: 100%;
   background-color: #252c34;
+  top: 0;
 }
 .header_box {
-  width: 100%;
+  width=100%;
   height: 100px;
   background-color: #252c34;
   border: solid 1px #252c34;
 }
-.header_content_1 {
+.header_name {
   display:block;
   width: 100%;
   background-color: #252c34;
 }
-.header_content_2 {
+.header_options {
   display:block;
   width: 100%;
   background-color: #252c34;
@@ -71,14 +71,22 @@ header {
 h1 {
   font-size: 400%;
   background-color: #252c34;
-  padding-left: 20px;
-  padding-top: 15px;
+  padding-left: 80px;
+  padding-top: 12px;
 }
 h2 {
   display: inline;
   text-decoration: none;
   background-color: #252c34;
-  padding-right: 10px;
+  padding-right: 25px;
+  padding-bottom: 5px;
+  padding-top: -2px;
+}
+h3 {
+  display: inline;
+  text-decoration: none;
+  background-color: #252c34;
+  padding-right: 10%;
   padding-bottom: 5px;
   padding-top: -2px;
 }
@@ -94,31 +102,43 @@ h2 a {
   background-color: #252c34;
   color: #ffffff;
 }
-
-.container {
-  display: table;
-  height: 100%;
-  width: 100%;
-  position:static;
-  padding-top:100px;
-}
-
-.container div {
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
-  position: static;
-}
-
-.sidebar {
-  background: grey;
-  width: 12%;
-  position: static;
+h3 a {
+  display: inline;
+  text-decoration: none;
+  background-color: #252c34;
+  color: #ffffff;
 }
 
 .midbar {
-  background: white;
-  width:76%;
-  position: static;
-  padding-top: 10px;
+  background-color: white;
+  text-align: left;
+  margin-top:120px;
+  margin-left:10%;
+  margin-right:10%;
+  margin-bottom:50px;
+  padding: 20px 20px 20px 30px;
+}
+
+.backstretch {
+left: 0px;
+top: 0px;
+overflow: hidden;
+margin: 0px;
+padding: 0px;
+height: 401px;
+width: 1263px;
+z-index: -999999;
+position: fixed;
+}
+
+#bg {
+position: fixed;
+margin: 0px;
+padding: 0px;
+width: 100%;
+height: 100%;
+max-height: none;
+max-width: none;
+z-index: -999999;
+left: 0px;
 }
