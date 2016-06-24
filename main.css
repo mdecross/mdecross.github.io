@@ -45,6 +45,10 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+@font-face {
+    font-family: 'YourFontName'; /*a name to be used later*/
+    src: url('http://domain.com/fonts/font.ttf'); /*URL to font*/
+}
 header {
   position: fixed;
   width: 100%;
@@ -54,7 +58,7 @@ header {
 }
 .header_box {
   width=100%;
-  height: 100px;
+  height: 120px;
   background-color: #252c34;
   border: solid 1px #252c34;
 }
@@ -70,7 +74,10 @@ header {
   text-align:right;
 }
 .header_name h1 {
-  font-size: 400%;
+  font-size: 500%;
+  font-family: 'Alegreya SC', serif;
+  text-shadow: 2px 2px 1px #282444;
+  letter-spacing:3px;
   background-color: #252c34;
   padding-left: 10%;
   padding-top: 12px;
@@ -79,9 +86,8 @@ header {
   display: inline;
   text-decoration: none;
   background-color: #252c34;
-  padding-right: 25px;
+  padding-right: 60px;
   padding-bottom: 5px;
-  padding-top: -2px;
 }
 .header_options h3 {
   display: inline;
@@ -89,7 +95,6 @@ header {
   background-color: #252c34;
   padding-right: 10%;
   padding-bottom: 5px;
-  padding-top: -2px;
 }
 .header_name h1 a {
   text-decoration: none;
@@ -114,7 +119,7 @@ header {
   overflow:hidden;
   text-align: left;
   min-height:100vh;
-  margin-top:120px;
+  margin-top:140px;
   margin-left:10%;
   margin-right:10%;
   margin-bottom:30px;
