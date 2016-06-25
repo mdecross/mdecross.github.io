@@ -136,6 +136,10 @@ header {
   font-size:80%;
 }
 
+.midbar a{
+  color:black;
+}
+
 .backstretch {
 left: 0px;
 top: 0px;
