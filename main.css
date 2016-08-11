@@ -140,6 +140,7 @@ header {
   color:black;
   font-size: 125%;
   margin-bottom:15px;
+  text-decoration: underline;
 }
 
 .midbar h2{
@@ -147,6 +148,7 @@ header {
   font-size: 125%;
   margin-top: 15px;
   margin-bottom: 15px;
+  text-decoration: underline;
 }
 
 .midbar h3{
@@ -154,11 +156,16 @@ header {
   font-size: 110%;
   margin-top: 10px;
   margin-bottom: 10px;
+  font-style:italic;
 }
 
 .midbar p{
   color:black;
   margin-bottom:2px
+}
+
+.midbar it{
+  font-style:italic;
 }
 
 .backstretch {
